@@ -7,12 +7,12 @@ cask "dotlocal" do
   desc "Mirror your production domains on your .local machine"
   homepage "https://degreat.co.uk/dotlocal"
 
-  app "DotLocal.app"
+  livecheck do
+    skip "No version information available"
+  end
 
   depends_on macos: ">= :sonoma"
   depends_on formula: "blackmann/brew/dotlocalctl"
 
-  livecheck do
-    skip "No version information available"
-  end
+  app "DotLocal.app"
 end
