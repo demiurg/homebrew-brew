@@ -1,6 +1,6 @@
 cask "dotlocal" do
-  version "0.0.4"
-  sha256 "5872bf71655d4642438354f34407266a01ea03adbee8f7531262b760cef46915"
+  version "0.0.5"
+  sha256 "70263fb0614d11a9993c1bb184f7763f0695f7fb3c66058e43a4970f9bd3f175"
 
   url "https://degreat.co.uk/packages/DotLocal-#{version}.zip"
   name "DotLocal"
