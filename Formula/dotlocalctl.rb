@@ -1,8 +1,8 @@
 class Dotlocalctl < Formula
   desc "Backend CLI for DotLocal"
   homepage "https://github.com/blackmann/dotlocalctl"
-  url "https://github.com/blackmann/dotlocalctl/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "8592c3a944b9725b8ad3d66976cff6ebf780fa5cc217a0bc642e2d04c38b42c4"
+  url "https://github.com/blackmann/dotlocalctl/archive/refs/tags/v0.0.4.tar.gz"
+  sha256 "d7b437cbed867a6114e74bd4925bc1d17beb3ead48fc0fefa36383e70add47c8"
   license "MIT"
 
   depends_on "rust" => :build
