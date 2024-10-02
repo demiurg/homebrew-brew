@@ -1,8 +1,8 @@
 class ZedThemeImporter < Formula
   desc "Zed theme importer"
   homepage "https://github.com/zed-industries/zed"
-  url "https://github.com/zed-industries/zed/archive/refs/tags/v0.154.4.tar.gz"
-  sha256 "c230f7c75ff3ddb1f976c1dc8e5839f315b258b997d16539879a3bc68a4339c3"
+  url "https://github.com/zed-industries/zed/archive/refs/tags/v0.152.4.tar.gz"
+  sha256 "34ea29b4904b5d0c999f503db705780f080930b5e58275772861ab60e391fbab"
   license "MIT"
 
   depends_on "rust" => :build
